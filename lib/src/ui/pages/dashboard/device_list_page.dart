@@ -1,20 +1,20 @@
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:sea_demo01/src/ui/pages/alters/index.dart';
+import 'package:sea_demo01/src/ui/pages/menu/index.dart';
+import 'package:sea_demo01/src/ui/pages/reports/index.dart';
+import 'package:sea_demo01/src/ui/pages/user/index.dart';
 
-import 'pages/alters/index.dart';
-import 'pages/dashboard/map.dart';
-import 'pages/menu/index.dart';
-import 'pages/reports/index.dart';
-import 'pages/user/profile_page.dart';
+import 'index.dart';
 
-class ScreenMain extends StatefulWidget {
-  const ScreenMain({Key? key}) : super(key: key);
+class DeviceListPage extends StatefulWidget {
+  const DeviceListPage({Key? key}) : super(key: key);
 
   @override
-  _ScreenMainState createState() => _ScreenMainState();
+  _DeviceListPageState createState() => _DeviceListPageState();
 }
 
-class _ScreenMainState extends State<ScreenMain> {
+class _DeviceListPageState extends State<DeviceListPage> {
   int currentTab = 2;
   final List<Widget> screens = [
     const AlterPage(),

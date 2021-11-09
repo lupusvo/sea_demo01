@@ -97,6 +97,11 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
+  flutter_localizations:
+    dependency: "direct main"
+    description: flutter
+    source: sdk
+    version: "0.0.0"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
@@ -104,6 +109,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.4"
+  flutter_polyline_points:
+    dependency: "direct main"
+    description:
+      name: flutter_polyline_points
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -150,7 +162,7 @@ packages:
     source: hosted
     version: "2.0.5"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       url: "https://pub.dartlang.org"
@@ -163,6 +175,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.0"
+  implicitly_animated_reorderable_list:
+    dependency: "direct main"
+    description:
+      name: implicitly_animated_reorderable_list
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.2"
+  intl:
+    dependency: transitive
+    description:
+      name: intl
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.17.0"
   js:
     dependency: transitive
     description:
@@ -184,6 +210,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.10"
+  material_design_icons_flutter:
+    dependency: "direct main"
+    description:
+      name: material_design_icons_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.6295"
+  material_floating_search_bar:
+    dependency: "direct main"
+    description:
+      name: material_floating_search_bar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.6"
   meta:
     dependency: transitive
     description:
@@ -191,6 +231,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   otp_text_field:
     dependency: "direct main"
     description:
@@ -261,11 +308,25 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.4"
+  provider:
+    dependency: "direct main"
+    description:
+      name: provider
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "6.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.99"
+  sliding_sheet:
+    dependency: "direct main"
+    description:
+      name: sliding_sheet
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.5.2"
   source_span:
     dependency: transitive
     description:

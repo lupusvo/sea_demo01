@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:sea_demo01/generated/l10n.dart';
 import 'package:sea_demo01/src/ui/compoment/compoment.dart';
 import 'package:sea_demo01/src/ui/screen.dart';
 import 'package:sea_demo01/src/ui/themes/index.dart';
@@ -63,7 +64,11 @@ class _LoginPageState extends State<LoginPage> {
                                 child: TextField(
                                   obscureText: true,
                                   decoration: ThemeHelper().textInputDecoration(
-                                      'Password', 'Enter your password'),
+                                    S.of(context).authPageInputPassword,
+                                    S
+                                        .of(context)
+                                        .authPageValidatorEmptyPassword,
+                                  ),
                                 ),
                                 decoration:
                                     ThemeHelper().inputBoxDecorationShaddow(),
@@ -98,7 +103,10 @@ class _LoginPageState extends State<LoginPage> {
                                     padding:
                                         EdgeInsets.fromLTRB(40, 10, 40, 10),
                                     child: Text(
-                                      'Sign In'.toUpperCase(),
+                                      S
+                                          .of(context)
+                                          .authPageButtonLogin
+                                          .toUpperCase(),
                                       style: TextStyle(
                                           fontSize: 20,
                                           fontWeight: FontWeight.bold,
